@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="icon" type="image/ico" href="/assets/favicon.ico">
+    <script src="https://kit.fontawesome.com/ed247afa0e.js" crossorigin="anonymous"></script>
+    <title>Video Player</title>
+</head>
+
+<body>
+    <nav>
+        <div class="start">
+            <i class="fas fa-bars"></i>
+            <img id="logo" src="assets/nav/logo.png" alt="logo" />
+        </div>
+        <form class="search">
+            <input class="searchbar" placeholder="Search" />
+            <button class="search-enter">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <span class="end">
+            <i class="fas fa-square end-i"></i>
+            <i class="fas fa-heart end-i"></i>
+            <i class="fas fa-circle end-i"></i>
+            <span class="avatar-wrapper sm">
+                <img class="sm"
+                    src="https://yt3.ggpht.com/yti/APfAmoGR6QyYHMoYPZByA59zCsEclbo7AlXo-X1HdlwdrA=s88-c-k-c0x00ffffff-no-rj-mo">
+            </span>
+        </span>
+    </nav>
+    <div class="body-wrapper margin-vert">
+        <div class="main margin-horiz">
+            <iframe id="main-player" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <section class="video-info sec-hoz-divider">
+                <h1 class="title">
+                    Contributing to Open Source Part I: The Easy Way
+                </h1>
+                <div class="video-stats">
+                    <article class="video-views-date">
+                        <span>63,925 views</span>
+                        <span class="dot-separator">&nbsp;-&nbsp;</span>
+                        <span>Feb 28, 2014</span>
+                    </article>
+                    <article class="video-likes-share">
+                        <div id="rating-system-wrapper">
+                            <span class="clickable">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>465</h5>
+                            </span>
+                            <span class="clickable">
+                                <i class="far fa-thumbs-down"></i>
+                                <h5>19</h5>
+                            </span>
+                        </div>
+                        <span class="clickable">
+                            <i class="fas fa-arrow-right"></i>
+                            <h2>SHARE</h2>
+                        </span>
+                        <span class="clickable">
+                            <i class="fas fa-folder-plus"></i>
+                            <h2>SAVE</h2>
+                        </span>
+                        <span><i class="fas fa-ellipsis-h"></i></span>
+                    </article>
+                </div>
+            </section>
+            <section class="margin-vert sec-hoz-divider">
+                <div class="video-author-wrapper">
+                    <div class="flex-row">
+                        <span class="avatar-wrapper lg">
+                            <img
+                                src="https://yt3.ggpht.com/ytc/AKedOLQWQsZo8xQGCXc6BgOVTPy2tQD7n9JjHat05g=s48-c-k-c0x00ffffff-no-rj">
+                        </span>
+                        <div class="upload-info">
+                            <h6>The Odin Project</h6>
+                            <p>1.06K Subscribers</p>
+                        </div>
+                    </div>
+                    <button class="subscription-btn subscribe">
+                        SUBSCRIBE
+                    </button>
+                </div>
+                <article class="video-desc">How do you contribute to open source? In this video, I'll describe the
+                    easiest way to make a simple contribution to an open source project -- without using the command
+                    line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe
+                    what kinds of </article>
+                <p class="video-desc-show-more cur-ptr">SHOW MORE</p>
+            </section>
+            <span>
+                <h3>2 Comments</h3>
+            </span>
+            <span class="comment-form-wrapper">
+                <img class="avatar-wrapper lg"
+                    src="https://yt3.ggpht.com/yti/APfAmoGR6QyYHMoYPZByA59zCsEclbo7AlXo-X1HdlwdrA=s88-c-k-c0x00ffffff-no-rj-mo">
+                <form>
+                    <input class="comment-input" type="text" placeholder="Add a public comment...">
+                </form>
+            </span>
+            <div class="comment-wrapper">
+                <img class="avatar-wrapper lg"
+                    src="https://yt3.ggpht.com/yti/APfAmoGR6QyYHMoYPZByA59zCsEclbo7AlXo-X1HdlwdrA=s88-c-k-c0x00ffffff-no-rj-mo">
+                <div class="comment-details-wrapper">
+                    <div>
+                        <span class="commenter">B.B. Ant</span>
+                        <span class="comment-ago">2 years ago</span>
+                    </div>
+                    <p>Nice video. I learned something new. Thank for the upload.</p>
+                    <div>
+                        <i class="far fa-thumbs-up"></i>
+                        <span>2</span>
+                        <i class="far fa-thumbs-down"></i>
+                        <span>reply</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-wrapper">
+                <img class="avatar-wrapper lg"
+                    src="https://yt3.ggpht.com/ytc/AKedOLTiq1siAOdJ1Yd1FrLqrsfbF8JbOCObT-uhCmFa=s48-c-k-c0x00ffffff-no-rj">
+                <div class="comment-details-wrapper">
+                    <div>
+                        <span class="commenter">Cactus Salad</span>
+                        <span class="comment-ago">7 months ago</span>
+                    </div>
+                    <p>+1 sir</p>
+                    <div>
+                        <i class="far fa-thumbs-up"></i>
+                        <span>79</span>
+                        <i class="far fa-thumbs-down"></i>
+                        <span>reply</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="margin-horiz">
+            <div class="video-aside">
+                <a href="https://www.youtube.com/watch?v=mENDYhfxH-o" target="_blank">
+                    <img class="video-sidebar-thumbnail"
+                        src="https://i.ytimg.com/an_webp/mENDYhfxH-o/mqdefault_6s.webp?du=3000&sqp=CIaU1IkG&rs=AOn4CLCh_yx3zvJ2kaIjcg_QuBK9mb1UgA" />
+                </a>
+                <a class="video-sidebar-details cur-ptr" href="https://www.youtube.com/watch?v=mENDYhfxH-o"
+                    target="_blank">
+                    <span class="video-sidebar-title">Contributing to Open Source Part II: The Real Way </span>
+                    <div class="video-sidebar-metadata">
+                        <p class="video-sidebar-detail">The Odin Project</p>
+                        <p class="video-sidebar-detail">38K views 7 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-aside">
+                <a href="https://www.youtube.com/watch?v=YJZCUhxNCv8" target="_blank">
+                    <img class="video-sidebar-thumbnail"
+                        src="https://i.ytimg.com/an_webp/YJZCUhxNCv8/mqdefault_6s.webp?du=3000&sqp=CP_C1IkG&rs=AOn4CLDgGtf_bpkEcMUt4dHte4tgP9zzYg" />
+                </a>
+                <a class="video-sidebar-details cur-ptr" href="https://www.youtube.com/watch?v=YJZCUhxNCv8"
+                    target="_blank">
+                    <span class="video-sidebar-title">
+                        'How to Get a Job at the Big 4 - Amazon, Facebook, Google &..
+                    </span>
+                    <div class="video-sidebar-metadata">
+                        <p class="video-sidebar-detail"> SJ Tech</p>
+                        <p class="video-sidebar-detail"> 1.3M views 6 years ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="video-aside">
+                <a href="https://www.youtube.com/watch?v=SIxUfMIKIyA" target="_blank">
+                    <img class="video-sidebar-thumbnail"
+                        src="https://i.ytimg.com/an_webp/SIxUfMIKIyA/mqdefault_6s.webp?du=3000&sqp=CICt1IkG&rs=AOn4CLAOGOzVybUjJf-YFb8syNH4MpxGjA" />
+                </a>
+                <a class="video-sidebar-details cur-ptr" href="https://www.youtube.com/watch?v=SIxUfMIKIyA"
+                    target="_blank">
+                    <span class="video-sidebar-title">
+                        [4K] Skyrim Ultra Modded 1200 Mods | Elysium Modlist |Rudy
+                    </span>
+                    <div class="video-sidebar-metadata">
+                        <p class="video-sidebar-detail"> SJ Tech</p>
+                        <p class="video-sidebar-detail"> 1.3M views 6 years ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="video-aside">
+                <a href="https://www.youtube.com/watch?v=SWYqp7iY_Tc" target="_blank">
+                    <img class="video-sidebar-thumbnail"
+                        src="https://i.ytimg.com/an_webp/SWYqp7iY_Tc/mqdefault_6s.webp?du=3000&sqp=CK-i1IkG&rs=AOn4CLDFe_Nwi9h7M1cxGOEh-SRaxM4T3w" />
+                </a>
+                <a class="video-sidebar-details cur-ptr" href="https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+                    target="_blank">
+                    <span class="video-sidebar-title">
+                        Git & GitHub Crash Course For Beginners
+                    </span>
+                    <div class="video-sidebar-metadata">
+                        <p class="video-sidebar-detail">Traversy Media</p>
+                        <p class="video-sidebar-detail">2.4M views 4 years ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="video-aside">
+                <a href="https://www.youtube.com/watch?v=arj7oStGLkU" target="_blank">
+                    <img class="video-sidebar-thumbnail"
+                        src="https://i.ytimg.com/an_webp/arj7oStGLkU/mqdefault_6s.webp?du=3000&sqp=COaw1IkG&rs=AOn4CLA2-_fyH0bvwsKDgLipj_VN6cox4g" />
+                </a>
+                <a class="video-sidebar-details cur-ptr" href="https://www.youtube.com/watch?v=arj7oStGLkU"
+                    target="_blank">
+                    <span class="video-sidebar-title">
+                        Inside the mind of a master procrastinator | Tim Urban
+                    </span>
+                    <div class="video-sidebar-metadata">
+                        <p class="video-sidebar-detail">TED</p>
+                        <p class="video-sidebar-detail">43M views 5 years ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="video-aside">
+                <a href="https://www.youtube.com/watch?v=k6KcaMffxac" target="_blank">
+                    <img class="video-sidebar-thumbnail"
+                        src="https://i.ytimg.com/an_webp/k6KcaMffxac/mqdefault_6s.webp?du=3000&sqp=CJnL1IkG&rs=AOn4CLDWWyAJTqKxnU6IXzYKaJAL6CJ7Uw" />
+                </a>
+                <a class="video-sidebar-details cur-ptr" href="https://www.youtube.com/watch?v=k6KcaMffxac"
+                    target="_blank">
+                    <span class="video-sidebar-title">
+                        Contributing to Open Source on GitHub for beginners
+                    </span>
+                    <div class="video-sidebar-metadata">
+                        <p class="video-sidebar-detail"> Kent C. Dodds</p>
+                        <p class="video-sidebar-detail"> 77K views Streamed 2 years ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="video-aside">
+                <a href="https://www.youtube.com/watch?v=L54q_24LvY8" target="_blank">
+                    <img class="video-sidebar-thumbnail"
+                        src="https://i.ytimg.com/vi/L54q_24LvY8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDe-xujjbrjqLxXRdMjNCgz1Y5R6g" />
+                </a>
+                <a class="video-sidebar-details cur-ptr" href="https://www.youtube.com/watch?v=L54q_24LvY8"
+                    target="_blank">
+                    <span class="video-sidebar-title">
+                        fox capture plan / エイジアン・ダンサー
+                    </span>
+                    <div class="video-sidebar-metadata">
+                        <p class="video-sidebar-detail">Playwright</p>
+                        <p class="video-sidebar-detail">1M views 4 years ago</p>
+                    </div>
+                </a>
+            </div>
+            <div class="video-aside">
+                <a href="https://www.youtube.com/watch?v=eZaEwp7eABo" target="_blank">
+                    <img class="video-sidebar-thumbnail"
+                        src="https://i.ytimg.com/vi/eZaEwp7eABo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAcZdOG5A7ihyaI0U6xAm2veC4ZAA" />
+                </a>
+                <a class="video-sidebar-details cur-ptr" href="https://www.youtube.com/watch?v=eZaEwp7eABo"
+                    target="_blank">
+                    <span class="video-sidebar-title">
+                        SANOVA『東海道メガロポリス』Music Video Full Ver.
+                    </span>
+                    <div class="video-sidebar-metadata">
+                        <p class="video-sidebar-detail">Victor Entertainment</p>
+                        <p class="video-sidebar-detail">54K views 1 year ago</p>
+                    </div>
+                </a>
+            </div>
+        </aside>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
